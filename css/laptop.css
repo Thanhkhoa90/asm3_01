@@ -62,11 +62,7 @@ a {
   text-align: center;
 }
 /* 2. Xây dựng Navbar */
-nav {
-  justify-content: center !important;
-}
-
-nav > :hover {
+nav > a:hover {
   background-color: rgb(0, 204, 255);
   color: white;
 }
@@ -222,6 +218,17 @@ nav > :hover {
 }
 
 /*7. Xây dựng phần Chứng chỉ - Giải thưởng*/
+#certificate .container .row > .col > .card {
+  border: none;
+  border-radius: none;
+}
+#certificate .container .row > .col:nth-child(1) {
+  border-bottom: 0.1rem solid rgb(223, 172, 96);
+  border-right: 0.1rem solid rgb(223, 172, 96);
+}
+#certificate .container .row > .col:nth-child(2) {
+  border-bottom: 0.1rem solid rgb(223, 172, 96);
+}
 /*8. Xây dựng phần Dự án*/
 table {
   text-align: left;

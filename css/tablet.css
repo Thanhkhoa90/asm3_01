@@ -2,12 +2,19 @@
   #banner .container {
     width: 100%;
     height: auto;
-    /* object-fit: cover; */
   }
-  nav {
-    justify-content: center !important;
-  }
-  #nav-bar li:nth-child(3) {
+  #navbar a:nth-child(3) {
     display: none;
+  }
+  #certificate .container .row > .col > .card {
+    border: none;
+    border-radius: none;
+  }
+  #certificate .container .row > .col:nth-child(1) {
+    border-bottom: 0.1rem solid rgb(223, 172, 96);
+    border-right: 0.1rem solid rgb(223, 172, 96);
+  }
+  #certificate .container .row > .col:nth-child(2) {
+    border-bottom: 0.1rem solid rgb(223, 172, 96);
   }
 }

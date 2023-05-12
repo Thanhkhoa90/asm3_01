@@ -1,8 +1,16 @@
 @media screen and (max-width: 576px) {
-  nav {
-    justify-content: flex-start !important;
+  #certificate .container .row {
+    justify-content: center;
   }
-  #certificate .col {
-    border-bottom: 0.25rem solid pink;
+  #certificate .container .row > .col {
+    border-bottom: 0.1rem solid rgb(230, 10, 46);
+    max-width: 80%;
+  }
+  #certificate .container .row > .col:nth-child(1) {
+    border-bottom: 0.1rem solid rgb(230, 10, 46);
+    border-right: none;
+  }
+  #certificate .container .row > .col:nth-child(2) {
+    border-bottom: 0.1rem solid rgb(230, 10, 46);
   }
 }
